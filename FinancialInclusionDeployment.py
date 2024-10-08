@@ -16,7 +16,7 @@ import joblib
 st.title('Bank Account Prediction in East Africa')
 
 # Load the trained model
-model = joblib.load("C:/Users/Dami/Downloads/model.pkl")  
+model = joblib.load("model.pkl")  
 
 # Input features from the user
 st.header('Input Features')
